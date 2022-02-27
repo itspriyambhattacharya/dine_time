@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <header class="container mx-auto py-2 bg-white">
-        <nav class="relative flex justify-between items-center">
+    <header class="container mx-auto py-2 bg-white w-full">
+        <nav class="relative w-full flex justify-between items-center px-1">
             <div id="logo">
                 <img src="./images/logo_main.png" alt="logo">
             </div>
@@ -23,7 +23,7 @@
                         clip-rule="evenodd" />
                 </svg>
             </div>
-            <ul id="nav-menu" class="absolute top-[67px] right-0 text-right w-full h-screen bg-[#f2f2f2] flex flex-col gap-4 justify-center items-center py-3">
+            <ul id="nav-menu" class="absolute top-[67px] -left-[100%] text-right w-full h-screen bg-[#f2f2f2] flex flex-col gap-4 justify-center items-center py-3 transition-all duration-700">
                 <li class="w-full text-center">
                     <a href="#" class="w-full block">Home</a>
                 </li>
@@ -40,7 +40,7 @@
                     <a href="#" class="w-full block">Contact</a>
                 </li>
                 <li class="w-full text-center">
-                    <a href="#" class="">Reservation</a>
+                    <a href="#" class="inline-block text-white bg-logo px-3 py-1 rounded-md">Reservation</a>
                 </li>
             </ul>
         </nav>
