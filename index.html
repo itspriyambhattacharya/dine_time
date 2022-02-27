@@ -12,11 +12,11 @@
 
 <body>
     <header class="lg:container mx-auto py-2 bg-white w-full sticky top-0 left-0">
-        <nav class="relative w-full flex justify-between items-center px-1">
+        <nav class="relative w-full flex justify-between items-center px-2">
             <div id="logo">
                 <img src="./images/logo_main.png" alt="logo">
             </div>
-            <div id="ham-menu-div">
+            <div id="ham-menu-div" class="cursor-pointer">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd"
                         d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
@@ -51,13 +51,35 @@
             <div id="banner"
                 class="w-full px-1 h-[25vh] bg-[url('/images/banner.png')] bg-black/30 bg-blend-multiply bg-center bg-cover flex flex-col gap-3 justify-center items-center">
                 <h1 class="text-white text-xl">Welcome to <span class="uppercase">Dine Time</span></h1>
-                <p class="text-white w-[230px] text-sm text-center"> Incididunt ut labore et dolore magna aliqua. Quis ipsum
+                <p class="text-white w-[230px] text-sm text-center"> Incididunt ut labore et dolore magna aliqua. Quis
+                    ipsum
                     suspendisse ultrices gravida.</p>
                 <div id="banner-btn">
                     <a href="#" class="inline-block text-white bg-logo px-1 py-1 text-sm rounded-sm">Reservation</a>
                     <a href="#"
                         class="inline-block text-white px-1 py-1 text-sm rounded-sm border-2 border-transparent hover:border-logo">Our
                         Menu</a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="container mx-auto my-14 px-2">
+            <div id="abt-content" class="flex flex-col-reverse gap-4">
+                <div class="img-area">
+                    <img src="./images/about_img.png" alt="about image" class="aspect-video w-full">
+                </div>
+                <div class="text-area flex flex-col gap-4">
+                    <h2
+                        class="text-sm text-center uppercase font-semibold flex flex-col justify-center items-center after:inline-block after:w-[10%] after:bg-logo after:h-0.5 after:rounded-full">
+                        About Us</h2>
+
+
+                    <h2 class="text-xl text-center font-semibold">
+                        We Invite You to Visit Your Restaurant</h2>
+                    <p class="text-sm text-justify font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                        maecenas accumsan lacus vel facilisis. </p>
+                    <a href="#" class="text-white bg-logo px-3 py-1 rounded-md self-center">Reservation</a>
                 </div>
             </div>
         </section>
