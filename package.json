@@ -1,0 +1,22 @@
+{
+  "name": "dine_time",
+  "version": "1.0.0",
+  "description": "A Restaurant Website Home Page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/tailwind.css -o ./dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itspriyambhattacharya/dine_time.github.io.git"
+  },
+  "author": "Priyam Bhattacharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itspriyambhattacharya/dine_time.github.io/issues"
+  },
+  "homepage": "https://github.com/itspriyambhattacharya/dine_time.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
