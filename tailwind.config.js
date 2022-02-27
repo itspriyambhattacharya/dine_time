@@ -1,7 +1,13 @@
 module.exports = {
-  content: ["./**/*.html"],
+  content: ["./**/*.html" ,
+            "./src/index.js"
+            ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'logo': '#de2328',
+      },
+    },
   },
   plugins: [],
 }
