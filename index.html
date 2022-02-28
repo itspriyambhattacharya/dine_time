@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="lg:container mx-auto py-2 bg-white w-full sticky top-0 left-0">
+    <header class="lg:container mx-auto py-2 bg-white w-full sticky top-0 left-0 z-50">
         <nav class="relative w-full flex justify-between items-center px-2">
             <div id="logo">
                 <img src="./images/logo_main.png" alt="logo">
@@ -24,7 +24,7 @@
                 </svg>
             </div>
             <ul id="nav-menu"
-                class="absolute top-[65px] -left-[100vw] text-right w-full h-screen bg-[#f2f2f2] flex flex-col gap-4 justify-center items-center py-3 transition-all duration-700">
+                class="absolute top-[65px] -left-[100vw] z-50 text-right w-full h-screen bg-[#f2f2f2] flex flex-col gap-4 justify-center items-center py-3 transition-all duration-700">
                 <li class="w-full text-center nav-li">
                     <a href="#" class="w-full block">Home</a>
                 </li>
@@ -117,6 +117,107 @@
                     </div>
                     <div class="feature-text-area">
                         <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="attractions" class="container mx-auto px-2 my-14">
+            <h2
+                class="text-sm text-center tracking-wider uppercase font-bold flex flex-col justify-center items-center gap-1 after:inline-block after:w-[10%] after:bg-logo after:h-0.5 after:rounded-full">
+                Attractions
+            </h2>
+            <h2 class="text-xl text-sub-head text-center font-semibold mt-4 mb-1">
+                What We Offer
+            </h2>
+            <p class="text-sm font-medium text-center mb-4">
+                Lorem ipsum dolor sit amet.
+            </p>
+            <div class="attraction-div flex flex-col justify-center items-center gap-7">
+                <div class="attaraction-1 flex flex-col justify-center items-center drop-shadow-xl">
+                    <img src="./images/offer_1.png" alt="offer 1">
+                    <a href="#" class="inline-block bg-logo text-white px-2 py-1 rounded-sm -mt-4">Read More</a>
+                </div>
+                <div class="attaraction-2 flex flex-col justify-center items-center drop-shadow-xl">
+                    <img src="./images/offer_2.png" alt="offer 2">
+                    <a href="#" class="inline-block bg-logo text-white px-2 py-1 rounded-sm -mt-4">Read More</a>
+                </div>
+                <div class="attaraction-3 flex flex-col justify-center items-center drop-shadow-xl">
+                    <img src="./images/offer_3.png" alt="offer 3">
+                    <a href="#" class="inline-block bg-logo text-white px-2 py-1 rounded-sm -mt-4">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials" class="container mx-auto px-2 my-14">
+            <h2
+                class="text-sm text-center tracking-wider uppercase font-bold flex flex-col justify-center items-center gap-1 after:inline-block after:w-[10%] after:bg-logo after:h-0.5 after:rounded-full">
+                Testimonials
+            </h2>
+            <h2 class="text-xl text-sub-head text-center font-semibold mt-4 mb-1">
+                What Our Visitors Say
+            </h2>
+            <p class="text-sm font-medium text-center mb-4">
+                Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="testi-div flex flex-col justify-center items-center gap-7">
+                <div
+                    class="testi-1 relative shadow-xl border-2 border-dashed border-black rounded-lg p-2 flex flex-col gap-3">
+                    <div class="quoto-div absolute -top-3 bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-7 h-7 text-gray-400"
+                            viewBox="0 0 975.036 975.036">
+                            <path
+                                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                            </path>
+                        </svg>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus itaque sunt quam sint illum
+                        veritatis error.
+                    </p>
+                    <div class="testi-img-div flex gap-2 items-center justify-between">
+                        <img src="./images/profile.png" alt="profile">
+                        <p
+                            class="text-sub-head font-semibold after:content-['28.02.2022'] after:ml-2 after:bg-sub-head after:rounded-2xl after:text-white after:px-2 after:py-1">
+                            Steve Marks</p>
+                    </div>
+                </div>
+                <div class="testi-2 relative shadow-xl border-2 border-dashed border-black rounded-lg p-2 flex flex-col gap-3">
+                    <div class="quoto-div absolute -top-3 bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-7 h-7 text-gray-400"
+                            viewBox="0 0 975.036 975.036">
+                            <path
+                                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                            </path>
+                        </svg>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus itaque sunt quam sint illum
+                        veritatis error.
+                    </p>
+                    <div class="testi-img-div flex gap-2 items-center justify-between">
+                        <img src="./images/profile.png" alt="profile">
+                        <p
+                            class="text-sub-head font-semibold after:content-['28.02.2022'] after:ml-2 after:bg-sub-head after:rounded-2xl after:text-white after:px-2 after:py-1">
+                            Steve Marks</p>
+                    </div>
+                </div>
+                <div class="testi-3 relative shadow-xl border-2 border-dashed border-black rounded-lg p-2 flex flex-col gap-3">
+                    <div class="quoto-div absolute -top-3 bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-7 h-7 text-gray-400"
+                            viewBox="0 0 975.036 975.036">
+                            <path
+                                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                            </path>
+                        </svg>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus itaque sunt quam sint illum
+                        veritatis error.
+                    </p>
+                    <div class="testi-img-div flex gap-2 items-center justify-between">
+                        <img src="./images/profile.png" alt="profile">
+                        <p
+                            class="text-sub-head font-semibold after:content-['28.02.2022'] after:ml-2 after:bg-sub-head after:rounded-2xl after:text-white after:px-2 after:py-1">
+                            Steve Marks</p>
                     </div>
                 </div>
             </div>
