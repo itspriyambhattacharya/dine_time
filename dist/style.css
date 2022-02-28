@@ -613,6 +613,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.75rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .self-center {
   align-self: center;
 }
@@ -724,13 +728,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 500;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .uppercase {
   text-transform: uppercase;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-sub-head {
+  --tw-text-opacity: 1;
+  color: rgb(62 70 89 / var(--tw-text-opacity));
 }
 
 .bg-blend-multiply {
