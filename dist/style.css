@@ -597,6 +597,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.75rem;
 }
 
+.h-\[35vh\] {
+  height: 35vh;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.max-h-\[501px\] {
+  max-height: 501px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -615,6 +627,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-7 {
   width: 1.75rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .cursor-pointer {
@@ -717,12 +737,44 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('/images/banner.png');
 }
 
+.bg-\[url\(\'\/images\/footer\.png\'\)\] {
+  background-image: url('/images/footer.png');
+}
+
 .bg-cover {
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
 .bg-center {
   background-position: center;
+}
+
+.bg-right-bottom {
+  background-position: right bottom;
+}
+
+.bg-left-bottom {
+  background-position: left bottom;
+}
+
+.bg-right-top {
+  background-position: right top;
+}
+
+.fill-white {
+  fill: #fff;
+}
+
+.fill-black {
+  fill: #000;
 }
 
 .p-2 {
@@ -911,9 +963,33 @@ Ensure the default browser behavior of the `hidden` attribute.
   content: var(--tw-content);
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .hover\:border-logo:hover {
   --tw-border-opacity: 1;
   border-color: rgb(222 35 40 / var(--tw-border-opacity));
+}
+
+.hover\:fill-\[\#1877f2\]:hover {
+  fill: #1877f2;
+}
+
+.group:hover .group-hover\:fill-\[url\(\#_Linear1\)\] {
+  fill: url(#_Linear1);
+}
+
+.group:hover .group-hover\:fill-white {
+  fill: #fff;
+}
+
+.group:hover .group-hover\:fill-red-700 {
+  fill: #b91c1c;
+}
+
+.group:hover .group-hover\:fill-\[\#1da1f2\] {
+  fill: #1da1f2;
 }
 
 @media (min-width: 1024px) {
